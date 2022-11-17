@@ -1,0 +1,3 @@
+mutation UpdateType($vehicleId: ID!) {
+    updateType(input: {vehicleId: $vehicleId})
+}

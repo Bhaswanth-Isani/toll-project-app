@@ -1,0 +1,3 @@
+mutation UpdateBlock($vehicleId: ID!) {
+    updateBlock(input: {vehicleId: $vehicleId})
+}

@@ -1,0 +1,10 @@
+query GetParkingLots {
+    getParkingLots {
+        id
+        electricityCharge
+        name
+        parkingCharge
+        occupied
+        lots
+    }
+}

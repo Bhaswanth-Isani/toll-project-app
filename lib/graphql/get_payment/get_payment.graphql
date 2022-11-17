@@ -1,0 +1,17 @@
+query GetPayment ($token: String!) {
+    getPayments(input: {token: $token}) {
+        id
+        vehicle
+        parking {
+            id
+            name
+            electricityCharge
+            parkingCharge
+        }
+        active
+        payment
+        amount
+        createdAt
+        updatedAt
+    }
+}

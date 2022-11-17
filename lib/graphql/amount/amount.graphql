@@ -1,0 +1,11 @@
+mutation AddAmount($vehicleId: ID!, $amount: Int!, $token: String!) {
+    addAmount(input: {amount: $amount, vehicleId: $vehicleId, token: $token}) {
+        id
+        licensePlate
+        rfid
+        user
+        block
+        paymentType
+        amount
+    }
+}

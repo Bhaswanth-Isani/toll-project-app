@@ -1,0 +1,11 @@
+mutation RegisterVehicle($licensePlate: String!, $rfid: String!, $token: String!, $type: String!) {
+    registerVehicle(input: {licensePlate: $licensePlate, rfid: $rfid, token: $token, type: $type}) {
+        id
+        rfid
+        licensePlate
+        amount
+        block
+        paymentType
+        user
+    }
+}

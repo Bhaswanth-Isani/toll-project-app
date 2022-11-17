@@ -1,0 +1,5 @@
+mutation ParkingPayment($paymentId: ID!, $token: String!) {
+    parkingPayment(input: {paymentId: $paymentId, token: $token}) {
+        payment
+    }
+}

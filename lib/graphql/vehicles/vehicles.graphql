@@ -1,0 +1,11 @@
+query GetVehicles($token: String!) {
+    getVehicles(input: {token: $token}) {
+        id
+        licensePlate
+        rfid
+        user
+        paymentType
+        block
+        amount
+    }
+}
