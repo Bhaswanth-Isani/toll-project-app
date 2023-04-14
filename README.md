@@ -2,6 +2,8 @@
 
 This project was made to decrease the amount of time taken at the entry of a parking lot near a mall or a theatre due to manual ticketing. This just scans an RFID tag attached to the vehicle and create an entry in the database.
 
+[Server GitHub Repository](https://github.com/bhaswanth-isani8055/toll-server)
+
 These entries can be checked in the mobile app directly and make note of the check in time.
 
 <img src="https://public.dm.files.1drv.com/y4mA6EpEU6ng6pZgAG_x5C5okPxUL4EX79F2Y_X1T2F4TKA__C3pVhO3IiwV4WzCfdUuja7abKNHjf77HQbbYFaTSEE76qLL3Ej3cwEHd_Z5UNl8J0Q_YuYNk1z9pESoAmdP6TWdPcRLXpgwVrl5jyUxntVcoBKpnET2zCkH1K4-u9HHv5b-XV_JBsSWcrPqnU33BPuJ0wyTQ8tJNU3nbP-lM6hkVJ7eD4YsSFlFybwyZg?AVOverride=1" alt="alt text" title="image Title" width="290"/>
